@@ -20,5 +20,10 @@ namespace ConsoleApp1
         {
             return a * b;
         }
+
+        public static int MultiplyAndAddTwoNumber(int a, int b)
+        {
+            return a * b +a;
+        }
     }
 }
