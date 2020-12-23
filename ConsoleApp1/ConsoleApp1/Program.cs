@@ -7,7 +7,18 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello Test");
+
+            Console.WriteLine($"Addition of numner is { AddTwoNumber(2, 3)}");
+        }
+
+        public static int AddTwoNumber(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int MultiplyTwoNumber(int a, int b)
+        {
+            return a * b;
         }
     }
 }
